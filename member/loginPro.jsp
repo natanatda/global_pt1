@@ -1,12 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ page import ="member.MemberDAO" %>
+<%@ page import ="pt1.MemberDAO" %>
 
   
-    <jsp:useBean id="dto" class="member.MemberDTO"/>
+    <jsp:useBean id="dto" class="pt1.MemberDTO"/>
     <jsp:setProperty property="*" name="dto"/>
     
-    <jsp:useBean id="dao" class="member.MemberDAO" />
+    <jsp:useBean id="dao" class="pt1.MemberDAO" />
     
     
  
